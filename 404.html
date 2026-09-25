@@ -8,21 +8,20 @@
 <meta name="theme-color" content="#000000">
 <meta name="robots" content="noindex">
 <link rel="icon" type="image/png" href="/shutter/icon.png">
+<!-- Inter from Bunny Fonts, a Google Fonts mirror that keeps no visitor logs. -->
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=inter:400,700&display=swap">
 <style>
-  :root {
-    color-scheme: dark;
-    --bg: #000;
-    --ink: #fff;
-    --muted: rgba(255, 255, 255, 0.5);
-    --faint: rgba(255, 255, 255, 0.32);
-  }
+  :root { color-scheme: dark; }
 
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--muted);
-    font: 17px/1.47 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: -0.022em;
+    background: #000;
+    color: #fff;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, system-ui, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    letter-spacing: -0.011em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -34,29 +33,25 @@
   }
 
   h1 {
-    margin: 0 0 14px;
-    color: var(--ink);
-    font-size: 34px;
-    line-height: 1.05;
-    font-weight: 900;
-    font-stretch: expanded;
-    text-transform: uppercase;
-    letter-spacing: 0;
+    margin: 0 0 12px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.022em;
   }
 
   p { margin: 0; }
 
   a {
-    color: var(--ink);
+    color: #fff;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-decoration-color: var(--faint);
     text-underline-offset: 3px;
   }
 
   @media (max-width: 480px) {
     main { padding: 56px 20px 72px; }
-    h1 { font-size: 28px; }
+    h1 { font-size: 32px; }
   }
 </style>
 </head>
